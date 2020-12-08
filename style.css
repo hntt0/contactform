@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+
+h1 {
+	background-color: #CDCDCD;
+	border-left: 4px solid red;
+	width: calc(40% - 10px);
+	margin: 30px;
+	padding-left: 10px;
+}
+
+form {
+	background-color: #EAEAEA;
+	border: solid 3px #DBDBDB;
+	width: calc(40% - 40px);
+	margin: 0 30px 30px 30px;
+	border-radius: 2%;
+	padding: 20px;
+}
+
+label {
+	display: block;
+}
+
+textarea {
+	display:block;
+	margin-bottom: 30px;
+}
+
+input {
+	margin-bottom: 30px;
+}
+
+select {
+	margin-bottom: 30px;
+}
+
+.sousin {
+	background-color: #A0A0A0;
+	border: solid 1px #C2C2C2;
+	color: white;
+	border-bottom: 2px solid #737373;
+	padding: 5px;
+	border-radius: 15%;
+}
+

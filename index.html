@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>お問合わせフォーム</h1>
+	<form action="mail_confirm.php" method="post" class="formbox">
+		<label>名前</label>
+		<input type="text" name="username">
+		<label>メールアドレス</label>
+		<input type="mail" name="mail">
+		<label>年齢</label>
+		<select name="age">
+			<option>選択してください</option>
+				<script>
+					for(var i = 18; i <= 65; i++) {
+						document.write("<option>");
+						document.write(i);
+						document.write("</option>");
+					}
+				</script>
+		</select>
+		<label>コメント</label>
+		<textarea name="coment" cols="60" rows="15" placeholder="ここに記入してください"></textarea>
+		<input type="submit" value="送信します" class="sousin">
+	</form>
+
+</body>
+</html>
